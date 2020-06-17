@@ -12,6 +12,7 @@ main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background: #E5E5E5;
 }
 
 main .container-books {

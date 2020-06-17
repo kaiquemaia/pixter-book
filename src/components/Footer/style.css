@@ -1,0 +1,107 @@
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #010101;
+}
+
+footer .container-footer {
+  width: 100%;
+  max-width: 791px;
+}
+
+footer .container-footer .content-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 80px 0 20px 0;
+}
+
+footer .container-footer .content-footer h1 {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 34px;
+  color: #FCDB00;
+}
+
+footer .container-footer .content-footer p {
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  color: #F1F1F1;
+  margin: 30px 0;
+}
+
+footer .container-footer .content-footer .social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px;
+}
+
+footer .container-footer .content-footer .social-icons img {
+  margin: 10px;
+  cursor: pointer;
+}
+
+footer .adress-container {
+  width: 100%;
+  max-width: 1027px;
+  padding: 35px 0;
+}
+
+footer .adress-container .adress-content ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+footer .adress-container .adress-content ul li {
+  color: #fff;
+  list-style: none;
+  margin: 20px;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+@media only screen and (max-width: 800px) {
+  footer .adress-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .adress-container .adress-content ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=style.css.map */

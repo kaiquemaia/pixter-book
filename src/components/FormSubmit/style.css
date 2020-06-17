@@ -1,0 +1,29 @@
+form input {
+  padding: 10px 75px;
+  border-radius: 5px;
+  border: 0;
+}
+
+form button {
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 0;
+  margin-left: 15px;
+  background: #FCDB00;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+  form {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  form button {
+    padding: 10px 125px;
+    margin-left: 0;
+    margin: 5px;
+  }
+}
