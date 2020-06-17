@@ -1,0 +1,74 @@
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .container-books {
+  width: 100%;
+  max-width: 827px;
+  padding: 80px 0;
+}
+
+main .container-books .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .container-books .content h1 {
+  margin-bottom: 28px;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 34px;
+  color: #010101;
+}
+
+main .container-books .content p {
+  margin-bottom: 35px;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  color: #555555;
+}
+
+main .container-books .cards-livros {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+main .container-books .cards-livros .card {
+  text-align: center;
+  margin: 5px;
+}
+
+@media only screen and (max-width: 800px) {
+  main .cards-livros {
+    -ms-grid-columns: 1fr 1fr !important;
+        grid-template-columns: 1fr 1fr !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */

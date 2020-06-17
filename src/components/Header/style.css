@@ -1,0 +1,124 @@
+header {
+  background: #FCDB00;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-width: 1250px;
+  padding: 25px 0;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .top ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 25px;
+}
+
+header .top ul li {
+  margin: 10px;
+  list-style: none;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+header .content-header {
+  width: 100%;
+  max-width: 1250px;
+  padding: 25px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .content-header .text {
+  margin-right: 90px;
+}
+
+header .content-header .text h1 {
+  font-weight: bold;
+  font-size: 33px;
+  line-height: 45px;
+}
+
+header .content-header .text p {
+  font-size: 17px;
+  line-height: 23px;
+  font-weight: normal;
+  margin-top: 36px;
+}
+
+header .content-header .text p .description {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 23px;
+}
+
+@media only screen and (max-width: 800px) {
+  header {
+    width: 100%;
+  }
+  header .top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .top ul {
+    margin: 15px;
+  }
+  header .content-header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header .content-header .text {
+    margin: 20px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .content-header .tablet {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

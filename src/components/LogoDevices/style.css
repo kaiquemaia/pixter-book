@@ -1,0 +1,11 @@
+.logos-device {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 38px;
+}
+
+.logos-device img {
+  margin: 10px;
+  cursor: pointer;
+}
