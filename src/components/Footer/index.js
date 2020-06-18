@@ -11,7 +11,7 @@ import imgPinterest from '../../assets/social/pinterest.svg';
 
 export default function Footer() {
   return (
-    <footer >
+    <footer id="newsletter">
       <div className="container-footer">
         <div className="content-footer">
           <h1>Keep in touch with us</h1>
@@ -28,7 +28,7 @@ export default function Footer() {
           
         </div>
       </div>
-      <div className="adress-container">
+      <div id="adress" className="adress-container">
         <div className="adress-content">
           <ul>
             <li>

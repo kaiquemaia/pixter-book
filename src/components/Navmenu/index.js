@@ -7,9 +7,9 @@ export default function Navmenu() {
     <div className="top">
       <img src={logoPixter} alt=""/>
       <ul>
-        <li>Book</li>
-        <li>Newslltter</li>
-        <li>Adress</li>
+        <li><a href="#books">Book</a></li>
+        <li><a href="#newsletter">Newsletter</a></li>
+        <li><a href="#adress">Adress</a></li>
       </ul>
     </div>
   )

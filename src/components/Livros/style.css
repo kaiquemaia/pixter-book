@@ -66,6 +66,21 @@ main .container-books .cards-livros .card {
   margin: 5px;
 }
 
+main .container-books .cards-livros .card img {
+  cursor: pointer;
+}
+
+.bg-modal .close {
+  position: absolute;
+  top: 0;
+  right: 14px;
+  font-size: 45px;
+  cursor: pointer;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  color: #FCDB00;
+}
+
 @media only screen and (max-width: 800px) {
   main .cards-livros {
     -ms-grid-columns: 1fr 1fr !important;

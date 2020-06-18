@@ -1,0 +1,137 @@
+.bg-modal {
+  width: 100vw;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+
+
+  .modal-content {
+    width: 100%;
+    max-width: 650px;
+    height: 300px;
+    background-color: #f2f2f2;
+    position: fixed;
+    border-radius: 8px;
+    transition: 0.5s;
+    display: flex;
+
+
+    .close {
+      position: absolute;
+      top: 0;
+      right: 14px;
+      font-size: 45px;
+      cursor: pointer;
+      transform: rotate(45deg);
+      color: #FCDB00;
+
+    }
+    .content {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        height: auto;
+        width: 200px;
+        margin: 20px 20px 20px -20px;
+
+      }
+      .content-book {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;;
+
+        h1 {
+          font-size: 25px;
+          margin: 8px 0;
+        }
+        span {
+          background-color: #FCDB00;
+          padding: 8px;
+          margin: 8px 8px 8px 0;
+          border-radius: 8px;
+          font-weight: 600;
+        }
+        strong {
+          background-color: #f2f2f2;
+          padding: 8px;
+          margin-bottom: -25px;
+          border-radius: 8px;
+          border: 2px solid #FCDB00;
+          z-index: 1;
+        }
+        p {
+          margin: 15px 10px;
+          border: 2px solid #FCDB00;
+          padding: 15px 12px;
+          border-radius: 8px;
+        }
+      }
+    }
+    
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .bg-modal {
+
+    .modal-content {
+      width: 90%;
+      height: 500px;
+      margin: 10px;
+      padding: 10px;
+
+      .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          margin-top: -40px;
+        }
+
+        .content-book {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+            h1 {
+              font-size: 25px;
+              margin: 8px 0;
+            }
+            span {
+              background-color: #FCDB00;
+              padding: 8px;
+              margin: 8px;
+              border-radius: 8px;
+              font-weight: 600;
+            }
+            strong {
+              background-color: #f2f2f2;
+              padding: 8px;
+              margin-bottom: -25px;
+              border-radius: 8px;
+              border: 2px solid #FCDB00;
+              z-index: 1;
+            }
+            p {
+              margin: 15px 10px;
+              border: 2px solid #FCDB00;
+              padding: 15px 12px;
+              border-radius: 8px;
+            }
+        }
+      }
+    }
+
+  }
+}

@@ -48,6 +48,10 @@ header .top ul li {
   line-height: 30px;
 }
 
+header .top ul li a {
+  color: #050505;
+}
+
 header .content-header {
   width: 100%;
   max-width: 1250px;

@@ -40,9 +40,27 @@ main {
       .card {
         text-align: center;
         margin: 5px;
+
+        img {
+          cursor: pointer;
+        }
       }
     }
   }
+}
+
+.bg-modal {
+
+    .close {
+      position: absolute;
+      top: 0;
+      right: 14px;
+      font-size: 45px;
+      cursor: pointer;
+      transform: rotate(45deg);
+      color: #FCDB00;
+
+    }
 }
 
 @media only screen and (max-width: 800px) {

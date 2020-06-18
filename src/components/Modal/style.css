@@ -1,0 +1,174 @@
+.bg-modal {
+  width: 100vw;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.bg-modal .modal-content {
+  width: 100%;
+  max-width: 650px;
+  height: 300px;
+  background-color: #f2f2f2;
+  position: fixed;
+  border-radius: 8px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bg-modal .modal-content .close {
+  position: absolute;
+  top: 0;
+  right: 14px;
+  font-size: 45px;
+  cursor: pointer;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  color: #FCDB00;
+}
+
+.bg-modal .modal-content .content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bg-modal .modal-content .content img {
+  height: auto;
+  width: 200px;
+  margin: 20px 20px 20px -20px;
+}
+
+.bg-modal .modal-content .content .content-book {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.bg-modal .modal-content .content .content-book h1 {
+  font-size: 25px;
+  margin: 8px 0;
+}
+
+.bg-modal .modal-content .content .content-book span {
+  background-color: #FCDB00;
+  padding: 8px;
+  margin: 8px 8px 8px 0;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.bg-modal .modal-content .content .content-book strong {
+  background-color: #f2f2f2;
+  padding: 8px;
+  margin-bottom: -25px;
+  border-radius: 8px;
+  border: 2px solid #FCDB00;
+  z-index: 1;
+}
+
+.bg-modal .modal-content .content .content-book p {
+  margin: 15px 10px;
+  border: 2px solid #FCDB00;
+  padding: 15px 12px;
+  border-radius: 8px;
+}
+
+@media only screen and (max-width: 800px) {
+  .bg-modal .modal-content {
+    width: 90%;
+    height: 500px;
+    margin: 10px;
+    padding: 10px;
+  }
+  .bg-modal .modal-content .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .bg-modal .modal-content .content img {
+    margin-top: -40px;
+  }
+  .bg-modal .modal-content .content .content-book {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .bg-modal .modal-content .content .content-book h1 {
+    font-size: 25px;
+    margin: 8px 0;
+  }
+  .bg-modal .modal-content .content .content-book span {
+    background-color: #FCDB00;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 8px;
+    font-weight: 600;
+  }
+  .bg-modal .modal-content .content .content-book strong {
+    background-color: #f2f2f2;
+    padding: 8px;
+    margin-bottom: -25px;
+    border-radius: 8px;
+    border: 2px solid #FCDB00;
+    z-index: 1;
+  }
+  .bg-modal .modal-content .content .content-book p {
+    margin: 15px 10px;
+    border: 2px solid #FCDB00;
+    padding: 15px 12px;
+    border-radius: 8px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
