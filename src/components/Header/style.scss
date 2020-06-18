@@ -4,6 +4,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: all .6s ease-in-out;
 
   .top {
     display: flex;
@@ -12,7 +13,7 @@ header {
     padding: 25px 0;
     flex-direction: row;
     justify-content: space-between;
-    
+    transition: all .6s ease-in-out;
 
     ul {
       display: flex;
@@ -26,6 +27,7 @@ header {
         font-weight: bold;
         font-size: 22px;
         line-height: 30px;
+        transition: all .6s ease-in-out;
 
         a {
           color: #050505;
@@ -42,6 +44,7 @@ header {
     padding: 25px 0;
     display: flex;
     align-items: center;
+    transition: all .6s ease-in-out;
 
     .text {
       margin-right: 90px;
@@ -61,11 +64,10 @@ header {
           font-weight: 300;
           font-size: 17px;
           line-height: 23px;
-          
         }
       }
     }
-    }
+  }
 }
 
 @media only screen and (max-width: 800px ) {
@@ -95,6 +97,5 @@ header {
         width: 100%;
       }
     }
-
   }
 }

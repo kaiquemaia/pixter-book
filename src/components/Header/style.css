@@ -13,6 +13,8 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition: all .6s ease-in-out;
+  transition: all .6s ease-in-out;
 }
 
 header .top {
@@ -29,6 +31,8 @@ header .top {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-transition: all .6s ease-in-out;
+  transition: all .6s ease-in-out;
 }
 
 header .top ul {
@@ -46,6 +50,8 @@ header .top ul li {
   font-weight: bold;
   font-size: 22px;
   line-height: 30px;
+  -webkit-transition: all .6s ease-in-out;
+  transition: all .6s ease-in-out;
 }
 
 header .top ul li a {
@@ -62,6 +68,8 @@ header .content-header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition: all .6s ease-in-out;
+  transition: all .6s ease-in-out;
 }
 
 header .content-header .text {

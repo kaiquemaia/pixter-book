@@ -9,6 +9,7 @@ import imgLivro from '../../assets/livro-1.svg';
 
 
 export default function Livros() {
+
   
   const [books, setBooks] = useState([]);
   const [modalBook, setModalBook] = useState(false);
@@ -16,12 +17,12 @@ export default function Livros() {
   useEffect(() => {
     api.get('/volumes?q=HARRY%20POTTER').then(response => {
       setBooks(response.data.items)
+      
 
     });
   }, []);
-
-
-
+     
+ 
   return (
     <main id="books">
       <div className="container-books">
@@ -34,6 +35,7 @@ export default function Livros() {
 
           {books.map(book => <div key={book.id} className="card">
             <img onClick={() => setModalBook(true)} src={book.volumeInfo.imageLinks.thumbnail} alt=""/>
+            {/* <p onClick={books.map( book.id)}>CLICK</p> */}
           </div> )}
           
         </div>

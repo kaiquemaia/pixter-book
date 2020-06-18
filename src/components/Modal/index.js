@@ -7,6 +7,8 @@ export default function Modal({ id = 'modal', onClose = () => {}, children}) {
     if(e.target.id === id) onClose();
   };
 
+  
+
   return (
     <div id={id} className="bg-modal" onClick={handleOutsideClick}>
       <div className="modal-content">

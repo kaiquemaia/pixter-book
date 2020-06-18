@@ -4,6 +4,8 @@ main {
   align-items: center;
   justify-content: center;
   background: #E5E5E5;
+  transition: all .6s ease-in-out;
+
 
   .container-books {
     width: 100%;
@@ -15,6 +17,7 @@ main {
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      transition: all .6s ease-in-out;
 
 
       h1 {
@@ -47,20 +50,6 @@ main {
       }
     }
   }
-}
-
-.bg-modal {
-
-    .close {
-      position: absolute;
-      top: 0;
-      right: 14px;
-      font-size: 45px;
-      cursor: pointer;
-      transform: rotate(45deg);
-      color: #FCDB00;
-
-    }
 }
 
 @media only screen and (max-width: 800px) {

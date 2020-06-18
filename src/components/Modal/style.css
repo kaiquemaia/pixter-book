@@ -19,7 +19,7 @@
 .bg-modal .modal-content {
   width: 100%;
   max-width: 650px;
-  height: 300px;
+  height: 320px;
   background-color: #f2f2f2;
   position: fixed;
   border-radius: 8px;
@@ -41,6 +41,12 @@
   color: #FCDB00;
 }
 
+.bg-modal .modal-content .close:hover {
+  color: #333;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
 .bg-modal .modal-content .content {
   display: -ms-grid;
   display: grid;
@@ -52,6 +58,8 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .bg-modal .modal-content .content img {
@@ -79,6 +87,7 @@
 .bg-modal .modal-content .content .content-book h1 {
   font-size: 25px;
   margin: 8px 0;
+  color: #333;
 }
 
 .bg-modal .modal-content .content .content-book span {
@@ -169,6 +178,7 @@
     border: 2px solid #FCDB00;
     padding: 15px 12px;
     border-radius: 8px;
+    color: #333;
   }
 }
 /*# sourceMappingURL=style.css.map */

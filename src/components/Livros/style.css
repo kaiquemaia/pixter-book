@@ -13,6 +13,8 @@ main {
       -ms-flex-pack: center;
           justify-content: center;
   background: #E5E5E5;
+  -webkit-transition: all .6s ease-in-out;
+  transition: all .6s ease-in-out;
 }
 
 main .container-books {
@@ -35,6 +37,8 @@ main .container-books .content {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition: all .6s ease-in-out;
+  transition: all .6s ease-in-out;
 }
 
 main .container-books .content h1 {
@@ -68,17 +72,6 @@ main .container-books .cards-livros .card {
 
 main .container-books .cards-livros .card img {
   cursor: pointer;
-}
-
-.bg-modal .close {
-  position: absolute;
-  top: 0;
-  right: 14px;
-  font-size: 45px;
-  cursor: pointer;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-  color: #FCDB00;
 }
 
 @media only screen and (max-width: 800px) {
